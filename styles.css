@@ -1,0 +1,218 @@
+
+/* navigation bar */
+
+.navbar {
+    position: fixed;
+}
+.logo {
+    margin-left: 70px;
+}
+nav ul {
+    position: relative;
+    float: left;
+    margin-top: 13px;
+    margin-left: 1050px;
+    padding: 15px;
+    list-style: none;
+}
+nav li {
+    display: inline-block;
+    margin-left: 30px;
+    position: relative;
+}
+nav > ul > li > a {
+    font-size: 17px;
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 450;
+    color: white;
+    text-decoration: none;
+}
+nav > ul > li > a:hover {
+    color:orange;
+}
+nav > ul > li > a::before {
+    content: '';
+    display: block;
+    height: 3px;
+    width: 0%;
+    background-color: orange;
+    transition: all ease-in-out 250ms;
+}
+nav > ul > li > a:hover::before {
+    width: 100%;
+}
+
+
+
+/* about Cebu Sinulog */
+
+.about-accenture {
+    font-family: 'Racing Sans One', cursive;
+    text-align: center;
+  font-weight: 800;
+  font-size: 85px;
+  color: orange;
+  margin: 25px 8px 8px 50px;
+}
+
+.high-performance {
+  font-family: 'Yanone Kaffeesatz', sans-serif;
+  font-weight: 600;
+  font-size: 20px;
+  color: black;
+  margin: -9px 8px 8px 850px;
+}
+
+/* what we do (cebu sinulog) */
+
+.about2 {
+	border: 2px solid white;
+	height: 600px;
+    width: 1400px;
+    margin: -47px 0px 0px -2px;
+	background-color: #FFFFFF ;
+}
+
+.what-we-do {
+    
+	border: 2px solid white;
+    height: 450px;
+    width: 1000px;
+    margin: -100px 0px 0px 506px;
+    background-color: #D9D9D9;
+}
+
+#sample {
+	margin: -950px 0px 0px 159px;
+  padding: 10px 10px;
+  box-shadow: 3px 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.about-what-we-do {
+    font-family: 'Nanum Pen Script', cursive;
+  font-weight: 400;
+  font-size: 70px;
+  color: #0196d8;
+  margin: 200px 8px 110px 750px;
+}
+
+#Logo3 {
+  padding: 10px 10px;
+  margin-right: 600px;
+  margin-top: 10px;
+  float: right;
+}
+
+#obligation {
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+	float: right;
+	margin-right: -570px;
+  margin-top: 55px;
+  color: #0196d8;
+  font-size: 50px;
+}
+#paragraph {
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    font-size: 28px;
+}
+
+.line6 {
+  width: 650px;
+  border-top: 2px solid rgb(1, 150, 216);
+	float: right;
+}
+
+/* Values  */
+
+div.values {
+  margin-top: 250px;
+}
+
+/* JCI Logo */
+
+#JCILogo_2 {
+  margin-top: 100px;
+  margin-left: 800px;
+}
+
+/* The container */
+.img-hover-zoom {
+  height: 300px; /* [1.1] Set it as per your need */
+  overflow: hidden; /* [1.2] Hide the overflowing of the elements */
+}
+
+/* Transition property for images */
+.img-hover-zoom img {
+  transition: transform .5s ease;
+}
+
+/* [3] transforming the image when container gets hovered */
+.img-hover-zoom:hover img {
+  transform: scale(1.5);
+}
+
+/* Global Variables for Values Mission and Vision */ 
+.font_JCI {
+ font-family: inherit;
+ font-size: 20px;
+}
+
+.Strong_text {
+color: orange;
+  font-size: 24px;
+}
+
+/* JCI VALUES MISSION AND VISION */
+.JCI_Values {
+font-family: 'Josefin Sans', sans-serif;
+  margin-top: -10px;
+  margin-left: 900px;
+}
+
+.JCI_MISSION {
+    font-family: 'Josefin Sans', sans-serif;
+  margin-top: -285px;
+  margin-left: 400px;
+}
+
+.JCI_VISION {
+    font-family: 'Josefin Sans', sans-serif;
+  margin-top: 30px;
+  margin-left: 400px;
+}
+
+/* Pictures of JCI Cebu Chapter */
+#sample_2 {
+  padding: 0px 0px;
+  margin-top: 100px;
+  margin-left: 650px;
+}
+
+/* The container */
+.img-hover-zoom_2 {
+  height: 1100px; /* [1.1] Set it as per your need */
+  overflow: hidden; /* [1.2] Hide the overflowing of the elements */
+}
+
+/* Transition property for images */
+.img-hover-zoom_2 img {
+  transition: transform .5s ease;
+}
+
+/* [3] transforming the image when container gets hovered */
+.img-hover-zoom_2:hover img {
+  transform: scale(1.5);
+}
+
+© 2021 GitHub, Inc.
+Terms
+Privacy
+Security
+Status
+Docs
+Contact GitHub
+Pricing
+API
+Training
+Blog
+About
