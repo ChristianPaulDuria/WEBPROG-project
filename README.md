@@ -2,11 +2,11 @@
 
 ## TODO
 
-    * Add more content
-    * Fix some alignments
+    + Add more content
+    + Fix some alignments
     
 ### Group Members
     
-    * Christian Paul Duria 
-    * Sim Paul Palacio
-    * Jan Red Esguerra
+    + Christian Paul Duria 
+    + Sim Paul Palacio
+    + Jan Red Esguerra
